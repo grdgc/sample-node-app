@@ -12,10 +12,10 @@
 # To explore all Habitat-maintained and community-contributed packages,
 # visit the Habitat Builder depot at https://bldr.habitat.sh/#/pkgs.
 
-pkg_name=sample-node-app
-pkg_origin=sethbergman
-pkg_version="1.1.0"
-pkg_deps=(core/node)
+export pkg_name=sample-node-app
+export pkg_origin=sethbergman
+export pkg_version="1.1.0"
+export pkg_deps=(core/node)
 
 # Habitat provides you with a number of built-in "callbacks" to use
 # in the course of your build, all of which are explained in the docs
